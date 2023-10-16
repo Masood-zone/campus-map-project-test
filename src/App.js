@@ -19,11 +19,7 @@ const router = createBrowserRouter(
     <>
       <Route path="/" element={<MainApp />}>
         <Route path="/" element={<Home />}>
-          <Route
-            path="locations"
-            element={<Location />}
-            loader={locationsLoader}
-          >
+          <Route path="locations" element={<Location />}>
             <Route path="edit" element={<EditList />} />
             <Route path="add" element={<AddList />} />
           </Route>

@@ -1,11 +1,53 @@
-import React from "react";
+import React, { useState } from "react";
 import SavedLocations from "./location";
 import Rate from "../../components/rating/Rating";
 import { useLoaderData, Link } from "react-router-dom";
 
 function Locations() {
   // Use json-server --p [PORT-NUMBER] --w ./[LOCATION-OF-THE-DATABASE] to request the information from the server.
-  const location = useLoaderData();
+  // const location = useLoaderData();
+  const [location, setLocation] = useState([
+    {
+      id: 1,
+      title: "Autonomy Hall",
+      category: "Lecture Hall",
+      position: "West Wing",
+      rating: 4,
+      periods: "7am - 10pm",
+      picture:
+        "https://aamusted.edu.gh/wp-content/uploads/2023/07/AAMUSTED-Full-shot.jpeg",
+    },
+    {
+      id: 2,
+      title: "AAMUSTED Main Library",
+      category: "Library",
+      position: "West Wing",
+      rating: 4,
+      periods: "7am - 10pm",
+      picture:
+        "https://aamusted.edu.gh/wp-content/uploads/2023/07/AAMUSTED-Full-shot.jpeg",
+    },
+    {
+      id: 3,
+      title: "ROB Lecture Room 5",
+      category: "ROB Classroom",
+      position: "East Wing",
+      rating: 3,
+      periods: "7am - 8pm",
+      picture:
+        "https://aamusted.edu.gh/wp-content/uploads/2023/07/AAMUSTED-Full-shot.jpeg",
+    },
+    {
+      id: 4,
+      title: "AAMUSTED UBS",
+      category: "Library",
+      position: "North West Wing",
+      rating: 4,
+      periods: "7am - 8pm",
+      picture:
+        "https://aamusted.edu.gh/wp-content/uploads/2023/07/AAMUSTED-Full-shot.jpeg",
+    },
+  ]);
 
   return (
     <div className="absolute left-0 right-0 z-[50] mx-auto card w-[589px] h-[533px] max-[799px]:w-[550px] max-[500px]:h-fit flex-shrink-0 shadow-xl rounded-xl bg-base-100  pt-8 mt-5 max-[799px]:pt-0 max-[299px]:p-0 max-[799px]:p-0 max-[499px]:p-0 max-[499px]:w-[350px] max-[399px]:w-[300px] max-[499px]:h-[400px] max-[399px]:h-[300px] max-[299px]:w-[200px] max-[299px]:[h-200px] overflow-hidden">
@@ -44,7 +86,7 @@ function Locations() {
 
 export default Locations;
 
-export const locationsLoader = async () => {
-  const res = await fetch("http://localhost:8000/savedLocations");
-  return res.json();
-};
+// export const locationsLoader = async () => {
+//   const res = await fetch("http://localhost:8000/savedLocations");
+//   return res.json();
+// };
