@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/campus-map-app/static/css/main.0c90821e.css",
+    "main.js": "/campus-map-app/static/js/main.10bf3fd2.js",
+    "static/media/event-pic.svg": "/campus-map-app/static/media/event-pic.2bae3f133b18571c9d3ff38f62842a23.svg",
+    "static/media/main-logo.svg": "/campus-map-app/static/media/main-logo.74f0e2ff27d837e0289cecb10062b28d.svg",
+    "static/media/atm-icon.svg": "/campus-map-app/static/media/atm-icon.1530eeb6042b164006977201e2483e92.svg",
+    "static/media/notification.svg": "/campus-map-app/static/media/notification.50f65b618d24e97eab92f1e9123d1691.svg",
+    "static/media/search-btn.svg": "/campus-map-app/static/media/search-btn.2955924b91cd95959d8c7b1cfdb13f39.svg",
+    "index.html": "/campus-map-app/index.html",
+    "static/media/not-found.svg": "/campus-map-app/static/media/not-found.50e9743de71f06c2a5c35a581b4e8790.svg",
+    "main.0c90821e.css.map": "/campus-map-app/static/css/main.0c90821e.css.map",
+    "main.10bf3fd2.js.map": "/campus-map-app/static/js/main.10bf3fd2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0c90821e.css",
+    "static/js/main.10bf3fd2.js"
+  ]
+}
