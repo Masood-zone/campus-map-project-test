@@ -1,0 +1,40 @@
+{
+  "savedLocations": [
+    {
+      "id": 1,
+      "title": "Autonomy Hall",
+      "category": "Lecture Hall",
+      "position": "West Wing",
+      "rating": 4,
+      "periods": "7am - 10pm",
+      "picture": "https://aamusted.edu.gh/wp-content/uploads/2023/07/AAMUSTED-Full-shot.jpeg"
+    },
+    {
+      "id": 2,
+      "title": "AAMUSTED Main Library",
+      "category": "Library",
+      "position": "West Wing",
+      "rating": 4,
+      "periods": "7am - 10pm",
+      "picture": "https://aamusted.edu.gh/wp-content/uploads/2023/07/AAMUSTED-Full-shot.jpeg"
+    },
+    {
+      "id": 3,
+      "title": "ROB Lecture Room 5",
+      "category": "ROB Classroom",
+      "position": "East Wing",
+      "rating": 3,
+      "periods": "7am - 8pm",
+      "picture": "https://aamusted.edu.gh/wp-content/uploads/2023/07/AAMUSTED-Full-shot.jpeg"
+    },
+    {
+      "id": 4,
+      "title": "AAMUSTED UBS",
+      "category": "Library",
+      "position": "North West Wing",
+      "rating": 4,
+      "periods": "7am - 8pm",
+      "picture": "https://aamusted.edu.gh/wp-content/uploads/2023/07/AAMUSTED-Full-shot.jpeg"
+    }
+  ]
+}
