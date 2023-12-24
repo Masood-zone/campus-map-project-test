@@ -1,7 +1,6 @@
 import React from "react";
 import { HiEllipsisVertical } from "react-icons/hi2";
 import { NavLink, Outlet } from "react-router-dom";
-import { FaPlus } from "react-icons/fa6";
 
 const SavedLocationsHeader = ({ showLocations, setShowLocations }) => {
   return (
@@ -20,10 +19,10 @@ const SavedLocationsHeader = ({ showLocations, setShowLocations }) => {
             </summary>
             <ul className="menu shadow z-[1] bg-base-100 rounded-md  dropdown-content w-[144px] h-[71px]  mt-2 text-[17px] py-2 flex flex-col">
               <button
-                className="btn btn-circle "
+                className="w-full btn btn-square flex"
                 onClick={() => setShowLocations(!showLocations)}
               >
-                <FaPlus />
+                <span className="capitalize">Add Location</span>
               </button>
             </ul>
           </details>
