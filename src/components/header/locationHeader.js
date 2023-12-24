@@ -1,8 +1,9 @@
 import React from "react";
 import { HiEllipsisVertical } from "react-icons/hi2";
 import { NavLink, Outlet } from "react-router-dom";
+import { FaPlus } from "react-icons/fa6";
 
-const SavedLocations = () => {
+const SavedLocationsHeader = ({ showLocations, setShowLocations }) => {
   return (
     <div>
       <main>
@@ -18,12 +19,12 @@ const SavedLocations = () => {
               <HiEllipsisVertical fontSize={28} />
             </summary>
             <ul className="menu shadow z-[1] bg-base-100 rounded-md  dropdown-content w-[144px] h-[71px]  mt-2 text-[17px] py-2 flex flex-col">
-              <NavLink to="edit" className="pb-1">
-                Edit
-              </NavLink>
-              <NavLink to="add" className="pb-1 pt-1 px">
-                Add Location
-              </NavLink>
+              <button
+                className="btn btn-circle "
+                onClick={() => setShowLocations(!showLocations)}
+              >
+                <FaPlus />
+              </button>
             </ul>
           </details>
         </div>
@@ -35,4 +36,4 @@ const SavedLocations = () => {
   );
 };
 
-export default SavedLocations;
+export default SavedLocationsHeader;

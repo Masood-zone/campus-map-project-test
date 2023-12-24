@@ -27,7 +27,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="flex items-center gap-5 max-[299px]:gap-0">
-        <div className="w-[35px] h-[37px] dropdown dropdown-end ">
+        <div className="w-[35px] h-[37px] dropdown dropdown-end z-[1]">
           <img
             tabIndex={0}
             src={nofiticationLogo}

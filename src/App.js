@@ -7,7 +7,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Home from "./pages/home";
-import Location, { locationsLoader } from "./pages/location";
+import Location from "./pages/location";
 import Event from "./pages/events";
 import Community from "./pages/community";
 import EditList from "./pages/location/EditList";
